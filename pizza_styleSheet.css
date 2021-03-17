@@ -1,0 +1,45 @@
+
+body {
+    background-image: linear-gradient(
+      135deg,
+      rgb(124, 6, 6, 0.6),
+      rgba(000, 0, 0, 0.6)
+    ),url('pizza_purple.jpg');
+
+    background-repeat: repeat;
+    background-size: contain;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+}
+
+#container1 {
+    background: linear-gradient(
+    10deg,
+    rgba(000,0,0,0.7),
+    rgba(000,0,0,0.7));
+
+    padding: 0px 30px 10px 30px;
+    margin: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    width: 45%;
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+}
+
+#origins_of_pizza {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#top_5_pizzas {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.pizza_images {
+    width: 350px;
+    margin: 20px;
+}
